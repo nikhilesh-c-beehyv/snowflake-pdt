@@ -16,6 +16,8 @@ explore: acquiredaccount__c {}
 
 explore: feeditem {}
 
+explore: account_pdt {}
+
 explore: opportunity {
   join: account {
     type: left_outer
